@@ -7,8 +7,17 @@
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
   <link rel="stylesheet" href="./css/common.css">
   <script type="text/javascript" src="./js/main.js"></script>
+
   <!-- Bootstrap -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <style>
+    body  {
+      background-color: #ffefff;
+    }
+    .starter-template {
+      background-color: white;
+    }
+  </style>
 
 </head>
 
@@ -18,32 +27,35 @@
     <h1>全部ビジネス用語で出力くん</h1>
   </header>
   <!-- header -->
-
-  <!-- main -->
-  <article>
-    <section>
-      <h2>変換例</h2>
-      <p>ども！　→　おせわになっております。</p>
-      <p>マジでごめん　→　大変申し訳ありません。</p>
-      <p>ごめん　→　申し訳ありません。</p>
-    </section>
-    <hr>
-    <section>
-      <h3>変換前の文章をこちらに入力してください。</h3>
-      <textarea class="befGen"></textarea>
-    </section>
-    <input type="button" class="genBtn" value="丁寧な変換をする" onclick="genTxt()">
-    <section>
-      <h3>変換後の文章はこちらです。</h3>
-      <textarea class="aftGen"></textarea>
-    </section>
-    <section>
-      <p>元ネタはこちら（35：40～）</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/nKbtCjX-RSo?start=2140" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </section>
-  </article>
-  <!-- main -->
+<div class="container">
+  <div class="starter-template">
+    <!-- main -->
+    <article>
+      <section>
+        <h2>変換例</h2>
+        <p>ども！　→　おせわになっております。</p>
+        <p>マジでごめん　→　大変申し訳ありません。</p>
+        <p>ごめん　→　申し訳ありません。</p>
+      </section>
+      <hr>
+      <section>
+        <h3>変換前の文章をこちらに入力してください。</h3>
+        <textarea class="befGen"></textarea>
+      </section>
+      <input type="button" class="genBtn" value="丁寧な変換をする" onclick="genTxt()">
+      <section>
+        <h3>変換後の文章はこちらです。</h3>
+        <textarea class="aftGen"></textarea>
+      </section>
+      <section>
+        <p>元ネタはこちら（35：40～）</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nKbtCjX-RSo?start=2140" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </section>
+    </article>
+    <!-- main -->
+  </div>
+</div>
 
   <!-- footer -->
   <footer>#ヌォンタート</footer>
