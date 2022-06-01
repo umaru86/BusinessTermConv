@@ -3,12 +3,16 @@ p {
 }
 
 header {
-	background-color: pink;
+	background-color: #ffe5ff;
+}
+
+body {
+	text-align: center;
 }
 
 footer {
 	margin: 10px 0;
-	background-color: pink;
+	background-color: #ffe5ff;
   position: sticky;
 	font-size: 14px;
 }
