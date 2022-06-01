@@ -2,6 +2,31 @@ p {
 	font-size: 18px;
 }
 
+header {
+	background-color: pink;
+}
+
 footer {
+	margin: 10px 0;
+	background-color: pink;
+  position: sticky;
 	font-size: 14px;
+}
+
+.genBtn {
+    border: 0.5;
+    line-height: 2.5;
+		margin: 10px 0;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
+    border-radius: 10px;
+    /* background-color: pink; */
+}
+
+textarea {
+	width: 500px;
+	height: 150px;
 }

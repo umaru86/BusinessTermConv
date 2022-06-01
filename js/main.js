@@ -1,0 +1,3 @@
+function genTxt() {
+  alert("ボタンがクリックされました");
+}
